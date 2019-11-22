@@ -11,7 +11,7 @@ import image from '@images/header-img.png'
 
 const Wrapper = styled.div`
   width: 100%;
-  background-color: #a98bff96;
+  background-color: #8dd4ff;
   background-position: center;
   border-bottom: 1px solid ${p => p.theme.colors.grayLight};
 

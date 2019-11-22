@@ -1,6 +1,6 @@
 # Toucaan documentaion website
 
-This is the static documentation site for Toucaan CSS Framework.
+Static documentation site for the Toucaan CSS Framework.
 
 ### Credits
 
@@ -17,6 +17,7 @@ yarn dev
 
 The website will be available at [http://localhost:3000](http://localhost:3000).
 
-Feel free to send me a pull request for any changes that you want to see on the docs. We also accept opinions and blog posts from CSS lords like you who have an insight to share for us smaller beings.
+Feel free to send me a pull request for any changes that you want to see on the docs.
+We also accept opinions and blog posts from CSS lords. If you have an insight for us, feel free to share by raising an issue.
 
 🤓
