@@ -74,10 +74,8 @@ export const Features = () => (
         <Info>
           <Title>Reusable to the core</Title>
           <Text>
-            Starting from scratch, Toucaan is built for maximum reusability. It is
-            optimised for a lightning fast development experience and speedy
-            build times. Toucaan also allows you to leverage huge benefits of
-            separating critical CSS from everything that's below-the-fold.
+            Built ground up, Toucaan offers maximum reusability. Enjoy lightning fast development experience with benefits of
+            separating critical CSS from everything else that's below-the-fold.
           </Text>
         </Info>
       </FeatureItem>
@@ -86,7 +84,7 @@ export const Features = () => (
         <Info>
           <Title>Blockscoped typography</Title>
           <Text>
-            No need to worry about text overflows anymore. With Toucaan you can create elastic text that scales with geometric precision.
+            Apply mathematically grounded <Link to="https://bubblin.io/blog/baseline-css">blockscoped typography</Link> on your content that scales with geometric precision. Never worry about text overflows again!
           </Text>
         </Info>
       </FeatureItem>
