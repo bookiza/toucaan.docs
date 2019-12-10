@@ -1,4 +1,4 @@
-export const purple = '#f742bb'
+export const purple = '#4263F7'
 export const purpleDark = '#2810D8'
 export const ocean = '#38D3EC'
 export const orange = 'indianred'
