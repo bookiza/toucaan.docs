@@ -38,7 +38,7 @@ export default {
       menu: [
         'Migration Guide',
         'Project Configuration',
-        'Components & Hooks API',
+        'Reusable Helpers',
         'Creating Plugins',
         'MDX Plugins',
       ],

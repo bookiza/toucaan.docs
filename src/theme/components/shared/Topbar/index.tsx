@@ -10,7 +10,7 @@ import { Container, Logo } from '@components/ui'
 import { breakpoints } from '@styles/responsive'
 import { mainContext } from '../Main'
 
-const Wrapper = styled.div`
+const Wrapper = styled.header`
   z-index: 999;
   width: 100%;
   position: fixed;
@@ -89,20 +89,14 @@ export const TOPBAR_LINKS: MenuListItem[] = [
   },
   {
     id: 3,
-    children: 'Utilities',
-    to: '/utilities',
+    children: 'Starters',
+    to: '/starters',
   },
   {
     id: 4,
     children: 'Themes',
     to: '/themes',
-  },
-  {
-    id: 5,
-    children: 'Blog',
-    to: '/blog',
-  },
-
+  }
 ]
 
 export const Topbar = () => {
@@ -126,13 +120,13 @@ export const Topbar = () => {
                 </Component>
               )
             })}
-          {/* <IconLink
+          <IconLink
             as="a"
-            href="https://toucaan.com/blog"
+            href="https://bubblin.io/blog/"
             target="_blank"
           >
             Blog
-          </IconLink> */}
+          </IconLink>
           <IconLink
             as="a"
             href="https://github.com/bookiza/toucaan"

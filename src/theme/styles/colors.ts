@@ -1,4 +1,4 @@
-export const purple = '#4263F7'
+export const purple = '#f742bb'
 export const purpleDark = '#2810D8'
 export const ocean = '#38D3EC'
 export const orange = 'indianred'
@@ -15,3 +15,4 @@ export const text = main
 export const link = '#50DED8'
 export const background = white
 export const border = gray
+

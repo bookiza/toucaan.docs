@@ -5,7 +5,7 @@ import { useWindowSize } from 'react-use'
 import styled from 'styled-components'
 
 import { Container } from './Container'
-import { Sidebar, Topbar } from '@components/shared'
+import { Sidebar, Topbar, Footer } from '@components/shared'
 import { breakpoints } from '@styles/responsive'
 
 const Wrapper = styled.div`
@@ -58,6 +58,7 @@ export const Page: SFC<PageProps> = ({ children, doc, location }) => {
           </Container>
         )}
       </Wrapper>
+      <Footer />
     </React.Fragment>
   )
 }

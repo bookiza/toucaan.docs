@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import { Link } from 'docz'
 
 import { Container } from '@components/ui'
-import magicWand from '@images/icons/magic-wand.svg'
+import dimsums from '@images/icons/dimsums.svg'
 import reusable from '@images/icons/reusable.svg'
 import settings from '@images/icons/settings.svg'
-import plug from '@images/icons/plug.svg'
+import grid from '@images/icons/grid.svg'
 import watch from '@images/icons/watch.svg'
 import protractor from '@images/icons/protractor.svg'
 
@@ -74,28 +74,8 @@ export const Features = () => (
         <Info>
           <Title>Reusable to the core</Title>
           <Text>
-            Built ground up, Toucaan offers maximum reusability. Enjoy lightning fast development experience with benefits of
-            separating critical CSS from everything else that's below-the-fold.
-          </Text>
-        </Info>
-      </FeatureItem>
-      <FeatureItem>
-        <Image src={magicWand} />
-        <Info>
-          <Title>Blockscoped typography</Title>
-          <Text>
-            Apply mathematically grounded <Link to="https://bubblin.io/blog/baseline-css">blockscoped typography</Link> on your content that scales with geometric precision. Never worry about text overflows again!
-          </Text>
-        </Info>
-      </FeatureItem>
-      <FeatureItem>
-        <Image src={settings} />
-        <Info>
-          <Title>Easy to customize</Title>
-          <Text>
-            Using <b>component shadowing</b> you can create your own theme or
-            customize the provided theme to make your documentation website
-            stand out.
+            Enjoy a lightning fast development experience with benefits of <Link to="/docs/reusable-helpers">maximum reusability</Link>.
+            Separate critical CSS from everything else.
           </Text>
         </Info>
       </FeatureItem>
@@ -104,15 +84,57 @@ export const Features = () => (
         <Info>
           <Title>WatchOS support</Title>
           <Text>
-            MDX is <i>Markdown + JSX</i>, it brings the world of components to
-            Markdown. MDX makes it possible to import and use your components in
-            Markdown-style files. Docz fully leverages this, and provides many
-            built-in components that augment and speed up your documentation
-            workflow.
+            Toucaan has been built ground up with support for Apple WatchOS 5.
+            Design apps that scale from a 44mm wrist watch to a 120" hi-res projector.
           </Text>
         </Info>
       </FeatureItem>
       <FeatureItem>
+        <Image src={dimsums} />
+        <Info>
+          <Title>Blockscoped Typography</Title>
+          <Text>
+            Say hello to intrinsic design with blockscoped typography.
+            Scale content with geometric precision and never worry about text overflows again!
+          </Text>
+        </Info>
+      </FeatureItem>
+      <FeatureItem>
+        <Image src={protractor} />
+        <Info>
+          <Title>Logical & lightweight</Title>
+          <Text>
+            Use a mathematically grounded <a href="https://bubblin.io/blog/baseline-css">baseline reset</a> that's logical & lightweight. 
+            Supports all modern browsers, all devices and is yet only 1.5kb!
+          </Text>
+        </Info>
+      </FeatureItem>
+      <FeatureItem>
+        <Image src={settings} />
+        <Info>
+          <Title>Easy to customize</Title>
+          <Text>
+            Toucaan is very easy to customize. Create your own theme or
+            customize a readymade theme to make your app or website
+            stand out.
+          </Text>
+        </Info>
+      </FeatureItem>
+
+      <FeatureItem>
+        <Image src={grid} />
+        <Info>
+          <Title>Powerful CSS Grids</Title>
+          <Text>
+            Unleash the power of CSS Grids on your web designs. 
+            Create smart responsive layouts with zero boilerplate code.
+          </Text>
+        </Info>
+      </FeatureItem> 
+
+
+
+      {/* <FeatureItem>
         <Image src={plug} />
         <Info>
           <Title>Fully pluggable</Title>
@@ -123,20 +145,7 @@ export const Features = () => (
             plugins.
           </Text>
         </Info>
-      </FeatureItem>
-      <FeatureItem>
-        <Image src={protractor} />
-        <Info>
-          <Title>Logical & mathematical</Title>
-          <Text>
-            Docz provides native TypeScript support for TSX components and can
-            generate documentation from your prop types and comments in your
-            code. All exported Docz components are built using TypeScript. Check
-            out the <Link to="/docs/components-api">API section</Link> for more
-            information.
-          </Text>
-        </Info>
-      </FeatureItem>
+      </FeatureItem> */}
     </ListItems>
   </Container>
 )

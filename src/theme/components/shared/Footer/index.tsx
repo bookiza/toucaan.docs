@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import { Logo as BaseLogo } from '@components/ui'
 
-const Wrapper = styled.div`
+const Wrapper = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,6 +16,6 @@ const Logo = styled(BaseLogo)`
 
 export const Footer = () => (
   <Wrapper>
-    <span>Built with</span> <Logo height={30} />
+    <span>Built using Docz. © Marvin Danig</span> <Logo height={30} />
   </Wrapper>
 )
