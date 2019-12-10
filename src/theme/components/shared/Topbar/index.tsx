@@ -98,7 +98,7 @@ export const TOPBAR_LINKS: MenuListItem[] = [
     to: '/themes',
   },
   {
-    id: 4,
+    id: 5,
     children: 'Blog',
     to: '/blog',
   },
