@@ -12,8 +12,7 @@ const selection = (color: string) => css`
 
 // tslint:disable
 export const BaseStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Inconsolata');
-  @import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,600');
+  @import url('https://fonts.googleapis.com/css?family=Inconsolata|Zilla+Slab:300,400,600|Fascinate&display=swap');
 
   @font-face {
     font-family: 'FaktSoft';
@@ -112,6 +111,6 @@ export const BaseStyle = createGlobalStyle`
   }
 
   pre, code {
-    font-family: 'Inconsolate', monospace;
+    font-family: 'Inconsolata', monospace;
   }
 `

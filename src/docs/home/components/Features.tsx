@@ -80,6 +80,17 @@ export const Features = () => (
         </Info>
       </FeatureItem>
       <FeatureItem>
+        <Image src={grid} />
+        <Info>
+          <Title>Powerful CSS Grids</Title>
+          <Text>
+            Unleash the power of CSS Grids on your web designs. 
+            Create smart responsive layouts with zero boilerplate code.
+          </Text>
+        </Info>
+      </FeatureItem> 
+
+      <FeatureItem>
         <Image src={watch} />
         <Info>
           <Title>WatchOS support</Title>
@@ -90,22 +101,23 @@ export const Features = () => (
         </Info>
       </FeatureItem>
       <FeatureItem>
+        <Image src={protractor} />
+        <Info>
+          <Title>Geometrical precision</Title>
+          <Text>
+            Use a mathematically grounded <a href="https://bubblin.io/blog/baseline-css">baseline reset</a> that's both logical & light in weight. 
+            Under 1.5kb zipped with 100% support!
+          </Text>
+        </Info>
+      </FeatureItem>
+
+      <FeatureItem>
         <Image src={dimsums} />
         <Info>
           <Title>Blockscoped Typography</Title>
           <Text>
             Say hello to intrinsic design with blockscoped typography.
-            Scale content with geometric precision and never worry about text overflows again!
-          </Text>
-        </Info>
-      </FeatureItem>
-      <FeatureItem>
-        <Image src={protractor} />
-        <Info>
-          <Title>Logical & lightweight</Title>
-          <Text>
-            Use a mathematically grounded <a href="https://bubblin.io/blog/baseline-css">baseline reset</a> that's logical & lightweight. 
-            Supports all modern browsers, all devices and is yet only 1.5kb!
+            Scale with geometric precision and never worry about text overflows again!
           </Text>
         </Info>
       </FeatureItem>
@@ -121,16 +133,6 @@ export const Features = () => (
         </Info>
       </FeatureItem>
 
-      <FeatureItem>
-        <Image src={grid} />
-        <Info>
-          <Title>Powerful CSS Grids</Title>
-          <Text>
-            Unleash the power of CSS Grids on your web designs. 
-            Create smart responsive layouts with zero boilerplate code.
-          </Text>
-        </Info>
-      </FeatureItem> 
 
 
 

@@ -1,5 +1,4 @@
 import * as React from 'react'
-// import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import GitHubButton from 'react-github-button'
 import { Link as BaseLink } from 'docz'
@@ -29,9 +28,29 @@ const Wrapper = styled.div`
     })};
 `
 
-const Subtitle = styled.h1`
-  font-weight: 200;
+const Title = styled.h1`
+  font-weight: 900;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 8vh;
+  font-family: 'Fascinate', cursive;
+`
+
+const Subtitle = styled.h2`
+  font-weight: 300;
+  text-align: center;
+`
+
+const Circle = styled.div`
+  height: 280px;
+  width: 280px;
+  background: #fcf5ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid plum;
 `
 
 const Image = styled.img`
@@ -51,16 +70,12 @@ const Link = styled(BaseLink)`
 export const Hero = () => {
   return (
     <Wrapper>
-      {/* <Helmet>
-        <script
-          src="https://fast.wistia.com/embed/medias/cl69p284xk.jsonp"
-          async
-        />
-        <script src="https://fast.wistia.com/assets/external/E-v1.js" async />
-      </Helmet> */}
       <Container>
-        <Logo height={200} style={{ maxWidth: '100%' }} />
-        <Subtitle>Toucaan—Styling framework based on CSS Grids.</Subtitle>
+        <Circle>  
+          <Logo height={200} style={{ maxWidth: '100%' }} />
+        </Circle>
+        <Title>Toucaan</Title>
+        <Subtitle><strong>Toucaan</strong> is a free and open source design system based on <strong>CSS Grids</strong>.</Subtitle>
         <GitHubButton
           type="stargazers"
           size="large"
