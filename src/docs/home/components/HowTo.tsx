@@ -83,9 +83,9 @@ export const HowTo = () => (
   <Wrapper>
     <Container>
       <Title>How to</Title>
-      <Text>Install Docz as a dependency</Text>
+      <Text>Install Toucaan as a dependency</Text>
       <Pre className="language-bash">
-        $ yarn add docz@next react react-dom --dev
+        $ npm install toucaan 
       </Pre>
       <Text>
         Create an <code>.mdx</code> file anywhere in your project

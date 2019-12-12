@@ -35,22 +35,12 @@ const Title = styled.h1`
   padding: 0;
   font-size: 8vh;
   font-family: 'Fascinate', cursive;
+  line-height: 1;
 `
 
 const Subtitle = styled.h2`
   font-weight: 300;
   text-align: center;
-`
-
-const Circle = styled.div`
-  height: 280px;
-  width: 280px;
-  background: #fcf5ff;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 10px solid plum;
 `
 
 const Image = styled.img`
@@ -71,9 +61,7 @@ export const Hero = () => {
   return (
     <Wrapper>
       <Container>
-        <Circle>  
-          <Logo height={200} style={{ maxWidth: '100%' }} />
-        </Circle>
+        <Logo height={200} style={{ maxWidth: '100%' }} />
         <Title>Toucaan</Title>
         <Subtitle><strong>Toucaan</strong> is a free and open source design system based on <strong>CSS Grids</strong>.</Subtitle>
         <GitHubButton
