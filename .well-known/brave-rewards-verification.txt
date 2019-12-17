@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: toucaan.com
+Token: 3c62d6063d7570446ce13089e1f47712e08e3c2bb6b496ef824c396d451e8017

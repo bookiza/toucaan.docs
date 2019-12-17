@@ -63,7 +63,7 @@ export const Hero = () => {
       <Container>
         <Logo height={200} style={{ maxWidth: '100%' }} />
         <Title>Toucaan</Title>
-        <Subtitle><strong>Toucaan</strong> is a free and open source design system based on <strong>CSS Grids</strong>.</Subtitle>
+        <Subtitle><strong>Toucaan</strong> is a free and open source mutative design system based on <strong>CSS Grids</strong>.</Subtitle>
         <GitHubButton
           type="stargazers"
           size="large"
