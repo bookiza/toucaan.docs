@@ -75,13 +75,13 @@ export const addCarbonAds = () => {
   const wrapper = document.getElementById('ads')
   const script = document.createElement('script')
 
-  // script.setAttribute('async', '')
-  // script.setAttribute('type', 'text/javascript')
-  // script.setAttribute(
-  //   'src',
-  //   '//cdn.carbonads.com/carbon.js?serve=CK7D6237&placement=wwwdoczsite'
-  // )
-  // script.setAttribute('id', '_carbonads_js')
+  script.setAttribute('async', '')
+  script.setAttribute('type', 'text/javascript')
+  script.setAttribute(
+    'src',
+    '//cdn.carbonads.com/carbon.js?serve=CE7D55Q7&placement=wwwtoucaancom'
+  )
+  script.setAttribute('id', '_carbonads_js')
 
   if (wrapper) {
     wrapper.appendChild(script)
