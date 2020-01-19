@@ -25,11 +25,11 @@ package.json
 ```
 
 
-The previous way of customizing docz in v0 and v1 was to use the `theme` property inside the `doczrc.js` file. 
+The previous way of customizing docz in v0 and v1 was to use the `theme` property inside the `doczrc.js` file.
 
 With v2, we leverage GatsbyJS theme shadowing to override any and all files of the theme.
 
-For example, to create a new theme wrapper and override some styles, we create a file located at `src/gatsby-theme-docz/index.js` that shadows [gatsby-theme-docz/src/index.js](https://github.com/doczjs/docz/blob/master/core/gatsby-theme-docz/src/index.js) 
+For example, to create a new theme wrapper and override some styles, we create a file located at `src/gatsby-theme-docz/index.js` that shadows [gatsby-theme-docz/src/index.js](https://github.com/doczjs/docz/blob/master/core/gatsby-theme-docz/src/index.js)
 and provide a new theme container implementation as shown below.
 
 
@@ -109,7 +109,7 @@ export default theme(themeConfig)(Theme)
 
 ## Providing Components
 
-As explained in the components API section, the `<ComponentsProvider>` is the component responsible for providing components to MDX and Docz to render your markdown files with. 
+As explained in the components API section, the `<ComponentsProvider>` is the component responsible for providing components to MDX and Docz to render your markdown files with.
 
 With these components passed to the provider, you can change how your mdx file will be rendered and alter default behaviors and styles.
 
@@ -160,7 +160,7 @@ const themeConfig = {
 export default theme(themeConfig)(Theme)
 ```
 
-This is powerful because it pushes you to think about your site as a set of base components 
+This is powerful because it pushes you to think about your site as a set of base components
 and to create a default style for each one that will be used in all your documents while keeping your code DRY.
 
 ## Getting data from documents
@@ -171,10 +171,10 @@ Having a way to navigate your documentation is essential in your documentation s
 
 Let's create a `Menu` component by using the `useMenus` hook and the `<Link>` component.
 
-The hook will give you information about all the menus' information parsed by Docz 
+The hook will give you information about all the menus' information parsed by Docz
 and the component will provide a way to navigate between them.
 
-An example `Menu` component is shown below : 
+An example `Menu` component is shown below :
 
 ```js
 // src/Menu.js
@@ -249,20 +249,20 @@ You can also use this component to create other things like a search component, 
 
 ## Using documents settings
 
-Another interesting thing that you can do when you're creating your own theme is to use the `componentMap`'s `<Page>` component to customize the document preview depending on each document's settings. 
+Another interesting thing that you can do when you're creating your own theme is to use the `componentMap`'s `<Page>` component to customize the document preview depending on each document's settings.
 
-Each document can have its own settings defined in the header of the `.mdx` file. 
+Each document can have its own settings defined in the header of the `.mdx` file.
 
 The `Page` component receives a prop called `doc` that contains the settings data. You can use this data to build your own variations of the rendered pages.
 
-For example, suppose that you'd like to add a hero image to some documents and leave others unchanged. 
+For example, suppose that you'd like to add a hero image to some documents and leave others unchanged.
 
 You could do that by providing a `hero` property to your document, and then if that property is defined you would render a hero, else you would show the document as is.
 
-Your markdown would look something like this : 
+Your markdown would look something like this :
 
 ```markdown
-<!-- 
+<!--
 hello-world.mdx
 -->
 ---
@@ -275,7 +275,7 @@ hero: /my/hero/img.png
 This is a page!
 ```
 
-And your `Page` component would look like the following : 
+And your `Page` component would look like the following :
 
 ```js
 // src/ui/Page.js
