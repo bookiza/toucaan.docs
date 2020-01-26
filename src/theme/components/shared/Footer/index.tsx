@@ -8,6 +8,10 @@ const Wrapper = styled.footer`
   align-items: center;
   justify-content: center;
   padding: 20px 0;
+  background: #312c4c;
+  height: 50vmin;
+  color: #897be8;
+  margin-top: 10vmin;
 `
 
 const Logo = styled(BaseLogo)`
