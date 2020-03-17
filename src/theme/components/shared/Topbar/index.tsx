@@ -4,6 +4,7 @@ import { useWindowSize } from 'react-use'
 import Github from 'react-feather/dist/icons/github'
 import styled, { css } from 'styled-components'
 import { Link } from 'docz'
+import GitHubButton from 'react-github-button'
 
 import { Hamburguer } from '@components/shared/Sidebar/Hamburguer'
 import { Container, Logo } from '@components/ui'
@@ -15,7 +16,9 @@ const Wrapper = styled.header`
   width: 100%;
   position: fixed;
   height: 60px;
-  background-image: linear-gradient(to right, #98fe92 0%, #fdff49 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0px 10px 30px rgba(128, 102, 255, 0.2);
 
   ${Container} {
     display: flex;
@@ -28,6 +31,12 @@ const Wrapper = styled.header`
         padding: ['0 14px', '0 20px', '0 20px', '0 20px'],
       })};
   }
+`
+
+const Accent = styled.div`
+  background: rgba(128, 102, 255, 1);
+  height: 0.25vmin;
+  border-bottom: 1px solid rgba(128, 102, 255, 0.5);
 `
 
 const LogoLink = styled(Link)`
@@ -106,10 +115,18 @@ export const Topbar = () => {
 
   return (
     <Wrapper>
+      <Accent></Accent>
       <Container>
         <LogoLink to="/">
           <Logo height={50} small={!showFullMenu} />
         </LogoLink>
+        <GitHubButton
+          type="stargazers"
+          size="large"
+          namespace="bookiza"
+          repo="toucaan"
+        />
+
         <Menu>
           {showFullMenu &&
             TOPBAR_LINKS.map(({ id, children, ...props }) => {

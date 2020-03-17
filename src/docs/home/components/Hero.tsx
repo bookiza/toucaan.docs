@@ -1,16 +1,15 @@
 import * as React from 'react'
 import styled from 'styled-components'
-import GitHubButton from 'react-github-button'
 import { Link as BaseLink } from 'docz'
 
 import { Container, Logo } from '@components/ui'
 import { btnStyle } from '@components/ui/Button'
-import pattern from '@images/pattern.png'
-import image from '@images/header-img.png'
+// import pattern from '@images/pattern.png'
+// import image from '@images/header-img.png'
 
 const Wrapper = styled.div`
   width: 100%;
-  background-color: #8dd4ff;
+  background-color: #f3ff8c;
   background-position: center;
   border-bottom: 1px solid ${p => p.theme.colors.grayLight};
 
@@ -43,11 +42,11 @@ const Subtitle = styled.h2`
   text-align: center;
 `
 
-const Image = styled.img`
-  margin: 60px 0;
-  max-width: 100%;
-  width: 1024px;
-`
+// const Image = styled.img`
+//   margin: 60px 0;
+//   max-width: 100%;
+//   width: 1024px;
+// `
 
 const Buttons = styled.div`
   display: flex;
@@ -63,14 +62,8 @@ export const Hero = () => {
       <Container>
         <Logo height={200} style={{ maxWidth: '100%' }} />
         <Title>Toucaan</Title>
-        <Subtitle>A free and open source <strong>Mutative Design System</strong> based on <strong>CSS Grids</strong>.</Subtitle>
-        <GitHubButton
-          type="stargazers"
-          size="large"
-          namespace="bookiza"
-          repo="toucaan"
-        />
-        <Image src={image} alt="Built-in components" />
+        <Subtitle>A foss <strong>Mutative Design Framework</strong> based on <strong>CSS Grids</strong> and <strong>Flexbox</strong>.</Subtitle>
+        {/* <Image src={image} alt="Built-in components" /> */}
         <Buttons>
           <Link scale="big" to="/docs/getting-started">
             Getting Started
