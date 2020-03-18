@@ -9,6 +9,7 @@ import settings from '@images/icons/settings.svg'
 import grid from '@images/icons/grid.svg'
 import watch from '@images/icons/watch.svg'
 import protractor from '@images/icons/protractor.svg'
+import acessibility from '@images/icons/accessibility.svg'
 
 const ListItems = styled.div`
   display: grid;
@@ -72,20 +73,30 @@ export const Features = () => (
       <FeatureItem>
         <Image src={reusable} />
         <Info>
-          <Title>Reusable to the core</Title>
+          <Title>Reusable utilities</Title>
           <Text>
-            Enjoy a lightning fast development experience with benefits of <Link to="/docs/reusable-helpers">maximum reusability</Link>.
-            Separate critical CSS from everything else.
+            Enjoy a lightning fast development experience with <Link to="/docs/reusable-helpers">reusable utility</Link> classes.
+            Write CSS as if you were writing in plain English.
           </Text>
         </Info>
       </FeatureItem>
       <FeatureItem>
         <Image src={grid} />
         <Info>
-          <Title>CSS Grids for Layouts</Title>
+          <Title>Semantic layouts</Title>
           <Text>
-            Unleash the power of CSS Grids on your web designs.
-            Create smart responsive layouts with zero boilerplate code.
+            Unleash the power of CSS Grids & Flexbox on your app.
+            Create smart intrinsic layouts with zero boilerplate code.
+          </Text>
+        </Info>
+      </FeatureItem>
+      <FeatureItem>
+        <Image src={dimsums} />
+        <Info>
+          <Title>Blockscoped typography</Title>
+          <Text>
+            Say hello to intrinsic web design with blockscoped typography.
+            Scale text with geometric precision and never worry about overflows again!
           </Text>
         </Info>
       </FeatureItem>
@@ -93,61 +104,43 @@ export const Features = () => (
       <FeatureItem>
         <Image src={watch} />
         <Info>
-          <Title>WatchOS Support</Title>
+          <Title>WatchOS support</Title>
           <Text>
-            Toucaan has been built ground up with support for Apple WatchOS 5.
-            Design apps that scale from a 44mm wrist watch to a 120" hi-res projector.
-          </Text>
-        </Info>
-      </FeatureItem>
-      <FeatureItem>
-        <Image src={protractor} />
-        <Info>
-          <Title>Geometrical Precision</Title>
-          <Text>
-            Use a mathematically grounded <a href="https://bubblin.io/blog/baseline-css">baseline reset</a> that's both logical & light in weight.
-            Under 1.5kb zipped with 100% support!
-          </Text>
-        </Info>
-      </FeatureItem>
-
-      <FeatureItem>
-        <Image src={dimsums} />
-        <Info>
-          <Title>Blockscoped Typography</Title>
-          <Text>
-            Say hello to intrinsic design with blockscoped typography.
-            Scale with geometric precision and never worry about text overflows again!
+            Toucaan has been built ground up starting with support for WatchOS.
+            Design apps that scale from a wrist watch to an LCD projector.
           </Text>
         </Info>
       </FeatureItem>
       <FeatureItem>
         <Image src={settings} />
         <Info>
-          <Title>Easy to Customize</Title>
+          <Title>Super customizable</Title>
           <Text>
-            Toucaan is very easy to customize. Create your own theme or
-            customize a readymade theme to make your app or website
-            stand out.
+            Toucaan is mutative. Customize and create your own themes, create apps and websites that stand out.
           </Text>
         </Info>
       </FeatureItem>
-
-
-
-
-      {/* <FeatureItem>
-        <Image src={plug} />
+      <FeatureItem>
+        <Image src={protractor} />
         <Info>
-          <Title>Fully pluggable</Title>
+          <Title>Mathematical formulation</Title>
           <Text>
-            Plugins provide a great way to add functionality to your application
-            without changing your code. With Docz, you can hook into the
-            dataflow and build steps of your application using GatsbyJS and Docz
-            plugins.
+            Use a mathematically grounded <a href="https://bubblin.io/blog/baseline-css">reboot</a> that's both intrinsic & lightweight.
+            Our baseline reset is less than 1.5 kilobyte unzipped!
           </Text>
         </Info>
-      </FeatureItem> */}
+      </FeatureItem>
+      <FeatureItem>
+            <Image src={acessibility} />
+            <Info>
+              <Title>Accessibility first</Title>
+              <Text>
+                Design accessible websites that put people first. Deliver solid experiences with <strong>darkmode</strong>, <strong>reduced-motion</strong> and other smart query options.
+                
+                
+              </Text>
+            </Info>
+          </FeatureItem>   
     </ListItems>
   </Container>
 )

@@ -122,7 +122,7 @@ export const Topbar = () => {
         </LogoLink>
         <GitHubButton
           type="stargazers"
-          size="small"
+          size="large"
           namespace="bookiza"
           repo="toucaan"
         />
