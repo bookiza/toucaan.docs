@@ -12,7 +12,8 @@ const selection = (color: string) => css`
 
 // tslint:disable
 export const BaseStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Inconsolata|Zilla+Slab:300,400,600|Fascinate&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Inconsolata|Zilla+Slab:300,400,600&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Fascinate&display=swap&text="Toucan"');
 
   @font-face {
     font-family: 'FaktSoft';
