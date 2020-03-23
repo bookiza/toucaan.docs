@@ -8,20 +8,39 @@ menu: General
 
 # Getting Started
 
-<!-- > Starting from Docz v1 you need to have `react` and `react-dom` with versions `>= 16.8.0` installed as dependencies. -->
+It is very easy to start using Toucaan on your projects.
+
+## Start on a New Project
+
+Paste the following `style` tag in the `<head></head>` section of your application layout to quickly get started:
+
+```html
+<style>
+  /* Portrait ⇋ landscape switch. */
+  @import url('./public/dist/portrait.css') only screen and (orientation: portrait);
+  @import url('./public/dist/landscape.css') only screen and (orientation: landscape);
+
+  /* --bu stands for base unit of blockscoped typography. */
+  @media only screen and (orientation: portrait) {
+    :root {
+      --bu: calc(100vw/100); /* Fallback if vmin is not supported. */
+    }
+  }
+  @media only screen and (orientation: landscape) {
+    :root {
+      --bu: calc(100vh/100); /* Fallback if vmin is not supported. */
+    }
+  }
+  /* Global variables below */
+  :root {
+    --bu: 1vmin;
+    /* all variables here */
+  }
+</style>
+```
 
 
-## Start a New Project
 
-Use create-docz-app to quickly get started :
+## Start on an Existing Project
 
-
-## Migration Guide
-
-This documentation is about **Docz v2**.
-
-If you need to migrate your Docz project, please read the [**Migration Guide**](/docs/migration-guide).
-
-If you are looking for documentation for v1 you can find it [**here**](https://docz-v1.surge.sh/).
-
-
+Remove all style inclusions like `<link rel="stylesheet" media="all" href="/path/to/bootstrap.css">` from your HTML.
