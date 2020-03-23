@@ -76,7 +76,7 @@ export const Features = () => (
           <Title>Reusable utilities</Title>
           <Text>
             Enjoy a lightning fast development experience with <Link to="/docs/reusable-helpers">reusable</Link> utilities.
-            Write your styles as if you are writing in plain English.
+            Write your styles as if you were writing in plain English.
           </Text>
         </Info>
       </FeatureItem>
