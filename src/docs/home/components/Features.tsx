@@ -135,9 +135,7 @@ export const Features = () => (
             <Info>
               <Title>Accessibility first</Title>
               <Text>
-                Design accessible websites that put people first. Deliver solid experiences with <strong>darkmode</strong>, <strong>reduced-motion</strong> and other smart media queries.
-
-
+                Design goodd looking accessible websites with smart media queries like <strong>darkmode</strong>, <strong>reduced-motion</strong> etc. Deliver solid experiences that put people first.
               </Text>
             </Info>
           </FeatureItem>
