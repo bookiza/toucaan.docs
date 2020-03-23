@@ -62,8 +62,7 @@ export const Hero = () => {
       <Container>
         <Logo height={200} style={{ maxWidth: '100%' }} />
         <Title>Toucaan</Title>
-        <Subtitle>A foss <strong>Mutative Design Framework</strong> based on <strong>CSS Grids</strong> and <strong>Flexbox</strong>.</Subtitle>
-        {/* <Image src={image} alt="Built-in components" /> */}
+        <Subtitle>A <strong>Mutative Design Framework</strong> based on <strong>CSS Grids</strong> and <strong>Flexbox</strong>.</Subtitle>
         <Buttons>
           <Link scale="big" to="/docs/getting-started">
             Getting Started
@@ -72,6 +71,7 @@ export const Hero = () => {
             Documentation
           </Link>
         </Buttons>
+        {/* <Image src={image} alt="Built-in components" /> */}
       </Container>
     </Wrapper>
   )

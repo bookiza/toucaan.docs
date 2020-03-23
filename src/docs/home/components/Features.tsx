@@ -75,8 +75,8 @@ export const Features = () => (
         <Info>
           <Title>Reusable utilities</Title>
           <Text>
-            Enjoy a lightning fast development experience with <Link to="/docs/reusable-helpers">reusable utility</Link> classes.
-            Write CSS as if you were writing in plain English.
+            Enjoy a lightning fast development experience with <Link to="/docs/reusable-helpers">reusable</Link> utilities.
+            Write your styles as if you are writing in plain English.
           </Text>
         </Info>
       </FeatureItem>
@@ -86,7 +86,7 @@ export const Features = () => (
           <Title>Semantic layouts</Title>
           <Text>
             Unleash the power of CSS Grids & Flexbox on your app.
-            Create smart intrinsic layouts with zero boilerplate code.
+            Create smart, intrinsic and meaningful layouts with zero boilerplate code.
           </Text>
         </Info>
       </FeatureItem>
@@ -136,11 +136,11 @@ export const Features = () => (
               <Title>Accessibility first</Title>
               <Text>
                 Design accessible websites that put people first. Deliver solid experiences with <strong>darkmode</strong>, <strong>reduced-motion</strong> and other smart media queries.
-                
-                
+
+
               </Text>
             </Info>
-          </FeatureItem>   
+          </FeatureItem>
     </ListItems>
   </Container>
 )
