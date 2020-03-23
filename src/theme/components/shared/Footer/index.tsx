@@ -8,10 +8,11 @@ const Wrapper = styled.footer`
   align-items: center;
   justify-content: center;
   padding: 20px 0;
-  background: #312c4c;
+  background: #fff;
   height: 50vmin;
   color: #897be8;
   margin-top: 10vmin;
+  box-shadow: 0 10px 30px rgba(128,102,255,.2);
 `
 
 const Logo = styled(BaseLogo)`
@@ -20,6 +21,6 @@ const Logo = styled(BaseLogo)`
 
 export const Footer = () => (
   <Wrapper>
-    <span>Built using Docz. © Marvin Danig</span> <Logo height={30} />
+    <span> Under <a rel="nofollow noreferrer noopener" href="https://github.com/bookiza/toucaan/blob/master/LICENSE.md">Public Parity License 7.0</a> license. Developer © Marvin Danig</span> <Logo height={30} />
   </Wrapper>
 )
