@@ -8,7 +8,7 @@ const Wrapper = styled.footer`
   align-items: center;
   justify-content: center;
   padding: 20px 0;
-  background: #fff;
+  background: #232534;
   height: 50vmin;
   color: #897be8;
   margin-top: 10vmin;
@@ -21,6 +21,6 @@ const Logo = styled(BaseLogo)`
 
 export const Footer = () => (
   <Wrapper>
-    <span> Under <a rel="nofollow noreferrer noopener" href="https://github.com/bookiza/toucaan/blob/master/LICENSE.md">Public Parity License 7.0</a> license. Developer © Marvin Danig</span> <Logo height={30} />
+    <div> Under <a rel="nofollow noreferrer noopener" href="https://github.com/bookiza/toucaan/blob/master/LICENSE.md">Public Parity License 7.0</a> license. Developer © Marvin Danig</div> <Logo height={30} />
   </Wrapper>
 )

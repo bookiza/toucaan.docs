@@ -96,16 +96,16 @@ export const TOPBAR_LINKS: MenuListItem[] = [
     children: 'Documentation',
     to: '/docs/introduction',
   },
-  {
-    id: 3,
-    children: 'Starters',
-    to: '/starters',
-  },
-  {
-    id: 4,
-    children: 'Themes',
-    to: '/themes',
-  }
+  // {
+  //   id: 3,
+  //   children: 'Starters',
+  //   to: '/starters',
+  // },
+  // {
+  //   id: 4,
+  //   children: 'Themes',
+  //   to: '/themes',
+  // }
 ]
 
 export const Topbar = () => {
@@ -120,12 +120,12 @@ export const Topbar = () => {
         <LogoLink to="/">
           <Logo height={50} small={!showFullMenu} />
         </LogoLink>
-        <GitHubButton
+        {/* <GitHubButton
           type="stargazers"
           size="large"
           namespace="bookiza"
           repo="toucaan"
-        />
+        /> */}
 
         <Menu>
           {showFullMenu &&
