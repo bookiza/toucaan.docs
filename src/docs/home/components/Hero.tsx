@@ -62,7 +62,7 @@ export const Hero = () => {
       <Container>
         <Logo height={200} style={{ maxWidth: '100%' }} />
         <Title>Toucaan</Title>
-        <Subtitle>An <strong>Intrinstic Design Framework</strong> based on <strong>Mutative CSS</strong> properties.</Subtitle>
+        <Subtitle>A CSS framework for <strong>intrinstic app-like</strong> interfaces.</Subtitle>
         <Buttons>
           <Link scale="big" to="/docs/getting-started">
             Getting Started
