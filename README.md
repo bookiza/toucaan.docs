@@ -1,10 +1,12 @@
-# The Toucaan documentation website
+# The Toucaan Documentation Website
 
-Static documentation site for the Toucaan CSS Framework.
+Static documentation for the Toucaan CSS Framework. 
+
+Here ⤏ [https://toucaan.com](https://toucaan.com)
 
 ### Credits
 
-This website uses [Docz](http://docz.site). 
+This website uses [Docz](http://docz.site) for development and [Netlify](https://netlify.com) for hosting. 
 
 ## Installation and usage
 
