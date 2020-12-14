@@ -9,7 +9,7 @@ import { btnStyle } from '@components/ui/Button'
 
 const Wrapper = styled.div`
   width: 100%;
-  background-color: #f3ff8c;
+  background-color: #fbffdd;
   background-position: center;
   border-bottom: 1px solid ${p => p.theme.colors.grayLight};
 
