@@ -8,19 +8,17 @@ const Wrapper = styled.footer`
   align-items: center;
   justify-content: center;
   padding: 20px 0;
-  background: #232534;
-  height: 50vmin;
-  color: #897be8;
+  height: 30vmin;
   margin-top: 10vmin;
   box-shadow: 0 10px 30px rgba(128,102,255,.2);
 `
 
 const Logo = styled(BaseLogo)`
-  margin: 0 10px;
+  margin: 0 20px;
 `
 
 export const Footer = () => (
   <Wrapper>
-    <div> Under <a rel="nofollow noreferrer noopener" href="https://github.com/bookiza/toucaan/blob/master/LICENSE.md">Public Parity License 7.0</a> license. Developer © Marvin Danig</div> <Logo height={30} />
+    <div> Developed & maintained by <a rel="nofollow noreferrer" href="http://twitter.com/marvindanig">@marvindanig</a></div> <Logo height={30} />
   </Wrapper>
 )

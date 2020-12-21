@@ -5,8 +5,8 @@ const PUBLIC = path.resolve(__dirname, 'public')
 const SRC = path.resolve(__dirname, 'src')
 
 export default {
-  title: 'Toucaan',
-  description: 'Style framework based on CSS Grids.',
+  title: 'Toucaan CSS Framework',
+  description: 'Intrinsic Style Framework for App-like Interfaces.',
   indexHtml: 'public/index.html',
   theme: 'src/theme/index',
   typescript: true,
@@ -23,15 +23,11 @@ export default {
       menu: [
         'Introduction',
         'Getting started',
-        'Writing MDX',
-        'Built-in components',
-        'Document settings',
-        'Deploying your docs',
       ],
     },
     {
-      name: 'Customizing',
-      menu: ['Powered by Gatsby', 'Gatsby Theme', 'Creating your themes'],
+      name: 'Basics',
+      menu: ['Color Palette', 'CSS Router', 'Typography', 'System Fonts'],
     },
     {
       name: 'References',
