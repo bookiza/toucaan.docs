@@ -8,13 +8,22 @@ menu: General
 
 # Getting Started
 
-It is very easy to start using Toucaan on your projects.
+It is very easy to start using Toucaan on a new project.
 
-## Start on a New Project
+## New Project
+
+The first step is to create a new directory called `toucaan` inside your project.
+This folder would contain all of the CSS of your app:
+
+```bash
+
+  $ cd /inside/your/project && mkdir toucaan.
+
+```
 
 Paste the following `style` tag in the `<head></head>` section of your application layout to quickly get started:
 
-```html
+```
 <style>
   /* Portrait ⇋ landscape switch. */
   @import url('./public/dist/portrait.css') only screen and (orientation: portrait);
@@ -42,5 +51,7 @@ Paste the following `style` tag in the `<head></head>` section of your applicati
 
 
 ## Start on an Existing Project
+
+On older projects, the transition to Toucaan can be slightly tricky.
 
 Remove all style inclusions like `<link rel="stylesheet" media="all" href="/path/to/bootstrap.css">` from your HTML.

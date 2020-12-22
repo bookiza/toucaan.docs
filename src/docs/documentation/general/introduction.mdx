@@ -7,49 +7,65 @@ menu: General
 
 # Introduction
 
-Fifteen years ago, Yahoo! came up with one of the first CSS resets called the [YUI](https://clarle.github.io/yui3/). 
+Fifteen years ago, Yahoo! came up with one of the first CSS resets called the [YUI](https://clarle.github.io/yui3/).
+It was the first reset that was adopted widely and shaped our early concept of "web design."
+In those days the Internet Explorer used to rule the web and Firefox was catching up!
 
-In those days the Internet Explorer ruled the web and Firefox was only catching up from the sidelines. 
-It was the YUI that was adopted widely and shaped our initial concept of web-design. YUI was to CSS what jQuery was to JavaScript. 
+Looking back, in many ways YUI was to CSS what jQuery was to JavaScript.
 
-A critical step in the founding of the subject of web-design itself. 
+A critical step in the founding of the UX/UI industry.
 
 ## Deprecating Normalization
 
-Over the years several new normalization techniques have been surfaced by the community, with each passing upgrade promising to deliver a better web experience and making our lives as web developers easier. 
+Over the years several normalization techniques have been surfaced by the developer community.
+Some more prominent than others.
+And with each passing upgrade, we have hopefully managed to deliver a better web-experience to the end-user than before.
 
-And yet the underlying principle in each of these reboots has remained the same: [Browser consistency](http://meyerweb.com/eric/thoughts/2007/04/18/reset-reasoning/).
+Occasionally, we have also made our lives as web developers easier.
 
-Today, there is a Cambrian explosion of devices with a modern browser connected to the Internet.
-The web which was already big back then, is much [bigger and wider](https://bubblin.io/blog/the-new-landscape-of-the-web) now.
-There is an Apple Watch with a trusty webkit browser, a self-driving Tesla car with a V9 web-browser, a foldable smartphone, a foldable tablet, and even the desktops continue to add more pixels-per-inch (ppi/dpi) with each new release.
+And yet in all that hustle and growth of the CSS ecosystem, the underlying principle in each of these passing reboots has remained the same over the years:
 
+Achieving [cross-browser consistency](http://meyerweb.com/eric/thoughts/2007/04/18/reset-reasoning/).
 
-Web has advanced to a point where a heavy-handed reset or deep normalization is no longer required. Consistency, which had been a goal of resets for more than a decade, is a given now.
-We need to step back and look at the pursuit of consistency itself. 
+CSS engineers have always sought after providing a uniform set of default styles across the spectrum of vendors.
+While this was a solid goal back in the day, it has become less of an issue on date.
+Even when there is a Cambrian explosion of new devices with a modern browser connected to the Internet, the default web has advanced to a point where a heavy-handed reset or deep normalization is no longer required.
 
-Arrive arrive a fundamentally [new type of baseline](https://bubblin.io/blog/baseline-css) that is enough for modern web-design.
-
+Consistency is more-or-less a given.
 
 ## Intrinsic Web Design
 
-Responsive web design or what we call the "mobile-first" technique is somewhat limited when it comes to supporting new type of devices on the web. 
-An Apple Watch, for example, is a sub-inch viewport whereas the accessibility of a web-browser in a moving car like Tesla has its own challenges. 
+We probably need to step back a little and look at the new powers of CSS instead.
+Houdini, CSS TOM api come to mind but there are numerous other new CSS properties that enable fine control over aspects of the web that weren't available earlier.
 
-We need a new approach that is both smart and **intrinsic** to the nature of device in question. 
-Revisit our ways of wiring up UX/UI according to the canvas of the new web.
+
+It is clear that the web, which was already big, is even [bigger](https://bubblin.io/blog/the-new-landscape-of-the-web) now.
+
+There is an Apple Watch with a trusty `webkit` browser, a self-driving Tesla car with a V9 web-browser, a foldable smartphone, a foldable tablet, and even the desktops continue to add more pixels-per-inch (ppi/dpi) with each new release.
+
+It is clear that responsive web design or what we call the "mobile-first" technique will no longer scale to support the new type of devices that are on the web.
+Take the example of an Apple Watch perhaps–a sub-inch viewport where [pixels do not scale]() correctly.
+
+Think about viewability of content on a web-browser in a moving car like Tesla which will pose new challenges!
+We need a new approach that is both smart and **intrinsic** to the nature of web today.
+
+And stop going after goals of the past that are no longer valid.
+
+## App-like Interfaces
 
 [Toucaan](https://toucaan.com) is free and open source **mutative** design system that puts intrinsicality of design front and center.
-It treats web-design and app-design closer together as a common ground for interfaces that belong to the physical boundary of the surface under interaction. 
+It puts web-design and app-design closer together in a bid to design a common language for interfaces that simply "belong to" the device.
 
-## Principles of App-like Interfaces
+## Framework ideals
 
-There are so many options to choose from when starting a new project. Toucaan goes after the following design ideals that we borrowed from some of the best resources available on the Internet today:
+Toucaan adopts the following design ideals that we have borrowed from some of the best resources available on the Internet:
 
-- **Mathematically grounded.** Solid and scalable 'utility driven' intrinsic design strategy.
 - **Semantic layouts.** Say hello to meaningful layouts with CSS grids.
-- **Blockscoped typography.** Smart text scaling with element level scope.
+- **Blockscoped typography.** Smart subpixel class text-scaling at element level.
+- **Mathematically grounded.** A solid design strategy grounded in maths.
 - **Easy to customize.** Pixel-perfect designs that are easy to maintain and reason about.
-- **Pluggable & themable.** Plugins and starter themes are the best. Use what you need.
+- **Mutable & themable.** Allows for in-place theme-ing and framework mutations.
 
-Excited? Let's [get started](/docs/getting-started)!
+Use what you need, however you need.
+
+Excited? Let's [get started](/docs/getting-started) then!
